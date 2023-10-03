@@ -1,0 +1,9 @@
+repos:
+    - repo: local
+      hooks:
+      - id: post-commit
+        name: post-commit
+        stages: [post-commit]
+        language: script
+        entry: scripts/insert_commit_msg_to_commit_db.sh
+        always_run: true
