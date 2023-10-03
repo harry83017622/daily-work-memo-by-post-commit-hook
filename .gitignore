@@ -1,0 +1,5 @@
+# credential
+.notion.env
+
+# system meta file
+.DS_Store
